@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4A62D601CE746AB009FDA8B /* test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A62D5F1CE746AB009FDA8B /* test1ViewController.swift */; };
 		F4F2A0511CE744D900A40A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F2A0501CE744D900A40A5B /* AppDelegate.swift */; };
 		F4F2A0531CE744D900A40A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F2A0521CE744D900A40A5B /* ViewController.swift */; };
 		F4F2A0561CE744D900A40A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F2A0541CE744D900A40A5B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4A62D5F1CE746AB009FDA8B /* test1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test1ViewController.swift; sourceTree = "<group>"; };
 		F4F2A04D1CE744D900A40A5B /* pooiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pooiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F2A0501CE744D900A40A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F2A0521CE744D900A40A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				F4F2A0501CE744D900A40A5B /* AppDelegate.swift */,
 				F4F2A0521CE744D900A40A5B /* ViewController.swift */,
+				F4A62D5F1CE746AB009FDA8B /* test1ViewController.swift */,
 				F4F2A0541CE744D900A40A5B /* Main.storyboard */,
 				F4F2A0571CE744D900A40A5B /* Assets.xcassets */,
 				F4F2A0591CE744D900A40A5B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				F4F2A0531CE744D900A40A5B /* ViewController.swift in Sources */,
 				F4F2A0511CE744D900A40A5B /* AppDelegate.swift in Sources */,
+				F4A62D601CE746AB009FDA8B /* test1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +489,7 @@
 				F4F2A0771CE744D900A40A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F2A0781CE744D900A40A5B /* Build configuration list for PBXNativeTarget "pooiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				F4F2A07A1CE744D900A40A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F2A07B1CE744D900A40A5B /* Build configuration list for PBXNativeTarget "pooiTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				F4F2A07D1CE744D900A40A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
