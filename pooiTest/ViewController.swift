@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    override func viewDidUnload() {
+        
+    }
+    
     override func viewWillUnload() {
         
     }
