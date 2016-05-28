@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillUnload() {
-        
+        adwr
     }
 
     override func viewDidLoad() {
